@@ -1,0 +1,137 @@
+@font-face { font-family: slogan; 
+    src: url("../fonts/Slogan/Pacifico-Regular.ttf");}
+    
+@font-face { font-family: quote; 
+    src: url("../fonts/quote/WorkSans-Italic-VariableFont_wght.ttf"); }   
+    
+@font-face { font-family: lineUp; 
+    src: url("../fonts/Header/Ubuntu-Bold.ttf"); }   
+
+body{
+    overflow: scroll;
+}
+
+.logo{
+    background-color: #005EFF;
+}
+
+.ground{
+    margin-top: 200px;
+}
+
+.slogan{
+    font-family: slogan;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.quote{
+    font-family: quote;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-left: 26%;
+    width: 48%;
+}
+
+.of{
+    color: gray;
+}
+
+
+.chotDeal{
+    font-size: 5vw;
+    
+}
+
+.content{
+    background-color: #005EFF;
+}
+
+.first{
+    font-size: 5vw;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 5vw;
+    color: #9C44C0;
+    font-family: quote;
+}
+
+.second{
+    font-size: 5vw;
+    font-weight: bolder;
+    color: #FF544F;
+    line-height: 5vw;
+    font-family: quote;
+    margin-bottom: 0;
+}
+
+.third{
+    font-size: 5vw;
+    font-weight: bolder;
+    color: #00A284;
+    line-height: 5vw;
+    font-family: quote;
+}
+
+.tag{
+    list-style-type: none;
+}
+
+.Header{
+    text-align: center;
+    font-family: lineUp;
+    font-size: 3vw;
+}
+
+.product-item{
+
+}
+
+.brand-item{
+    background-color: white;
+
+}
+
+.brand-title{
+    color: #005EFF !important;
+    position: relative;
+    font-size: 30px;
+}
+
+.badge{
+    font-size: 15px !important;
+}
+
+.past{
+    background-color: #005EFF !important;
+}
+
+.title{
+    height: 160px;
+    margin: 0;
+}
+
+.pagination_{
+    margin-left: 25%;
+}
+
+.footer ul li a{
+    color: white;
+    font-weight: bolder;    
+}
+
+.position-absolute{
+    top: 120px;
+}
+
+.footer{
+    margin-left: 10%;
+}
+
+.loginForm{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}

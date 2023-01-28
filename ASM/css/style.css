@@ -1,0 +1,100 @@
+
+
+
+@font-face { font-family: Paci; 
+    src: url("../fonts/Slogan/Pacifico-Regular.ttf");}
+    
+@font-face { font-family: quote; 
+    src: url("../fonts/quote/WorkSans-Italic-VariableFont_wght.ttf"); }   
+    
+@font-face { font-family: tr; 
+    src: url("../fonts/Header/Ubuntu-Bold.ttf"); }     
+
+
+header{
+    height: 301px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    top: 40px;
+}
+
+header{
+    background-color: #FFFFFF;
+}
+
+#menubarul{
+    list-style-type: none;  
+}
+
+#meunubar{
+    top: 80px;
+    right: 100px;
+}
+
+#meunubar ul li a{
+    margin-left: 30px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3345DA;
+}
+
+#slogan{
+    font-family: "Paci";
+    font-size: 54px;
+    color:  #3345DA;
+}
+
+
+#support{
+    font-family: quote;
+    font-size: 20px;
+    font-style: italic;
+    width: 51%;
+    margin-left: 25%;
+    
+}
+
+#tag{
+    color: gainsboro;
+}
+
+#spy{
+    height: 50px;
+}
+
+#spy1{
+    left: 36px;
+}
+
+#spy ul li a{
+    font-size: small;
+    font-family: quote;
+    position: relative;
+    right: 40px;
+}
+
+
+#product{
+    margin: 0;
+}
+
+#tr{
+    font-family: tr;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10;
+    margin: 10;
+}
+
+.pagination{
+    margin-left: 21%;
+}
+
+.image{
+    width: auto;
+    height: auto;
+}
